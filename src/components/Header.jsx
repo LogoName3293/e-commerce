@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <>
         <div className='header'>
-            <p><a href='/'>Github ShopCode</a></p>
+            <p><a href='https://github.com/abuizid/e-commerce' rel="noreferrer" target={'_blank'}>Github ShopCode</a></p>
             <img src={cart} alt="logo" />
         </div>
         <hr id='headHr'/>

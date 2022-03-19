@@ -90,9 +90,13 @@ a:focus:after {
 .product {
   margin-left: 50px;
   width: 250px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   margin-bottom: 40px;
   border-radius: 21px;
+}
+.product:hover{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  transition: .7s;
+
 }
 .product__img {
   display: flex;
