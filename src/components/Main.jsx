@@ -12,7 +12,7 @@ const Main = () => {
     <>
       <Product
         id={"nike"}
-        name={"Nike Air Max Plus"}
+        name={"Nike Air Max"}
         img={nike}
         price={5990}
         oldPrice={`${10990}₽`}

@@ -7,7 +7,7 @@ body {
   background-color: rgb(255, 255, 255);
 }
 .container {
-  width: 80%;
+  width: 1130px;
   margin: auto;
 }
 .header {
@@ -21,8 +21,8 @@ body {
   text-decoration: none;
   font-size: 40px;
   background: linear-gradient(to right, #8e0e00, #1f1c18);
-  background: linear-gradient(to right, #8e0e00, #1f1c18);;
-  background:linear-gradient(to right, #8e0e00, #1f1c18);
+  background: linear-gradient(to right, #8e0e00, #1f1c18);
+  background: linear-gradient(to right, #8e0e00, #1f1c18);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer;
@@ -56,8 +56,8 @@ body {
 }
 .sibebar a:hover {
   background: linear-gradient(to right, #8e0e00, #1f1c18);
-  background: linear-gradient(to right, #8e0e00, #1f1c18);;
-  background:linear-gradient(to right, #8e0e00, #1f1c18);
+  background: linear-gradient(to right, #8e0e00, #1f1c18);
+  background: linear-gradient(to right, #8e0e00, #1f1c18);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   border-radius: 3px;
@@ -69,20 +69,20 @@ body {
   content: "";
   height: 2px;
   width: 0%;
-  background:linear-gradient(to right, #8e0e00, #1f1c18);
-  transition: width .5s ease-in-out;
+  background: linear-gradient(to right, #8e0e00, #1f1c18);
+  transition: width 0.5s ease-in-out;
 }
 
 a:hover:after,
 a:focus:after {
-    width: 100%;
+  width: 100%;
 }
 
-.main{
+.main {
   display: flex;
   width: 1130px;
 }
-.products{
+.products {
   width: 900px;
   display: flex;
   flex-wrap: wrap;
@@ -90,38 +90,53 @@ a:focus:after {
 .product {
   margin-left: 50px;
   width: 250px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   margin-bottom: 40px;
+  border-radius: 21px;
 }
-.product img{
-  width: 250px;
-  border-radius: 20px;
-}
-.price__info{
+.product__img {
   display: flex;
-  margin-bottom: 40px;
+  justify-content: center;
+  width: 100%;
+}
+.product img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; 
+}
+.price__info {
+  display: flex;
+  margin-bottom: 21px;
   align-items: center;
 }
-.price__info h4{
-  padding-right: 25px;
-  padding-left: 5px;
+.price__info h4 {
+  padding-right: 6px;
+  padding-left: 12px;
   margin: 0;
   cursor: pointer;
   letter-spacing: 2px;
   font-size: 1.5rem;
 }
-.price__info strike{
+.price__info strike {
   letter-spacing: 1px;
   font-size: 1rem;
+  padding-top: 8px;
   cursor: pointer;
   color: rgba(80, 80, 80, 0.5);
 }
-.btn__buy button{
+.btn__buy{
+  margin-bottom: 20px;
+}
+.btn__buy button {
   display: flex;
   width: 200px;
   margin: auto;
+  cursor: pointer;
   height: 50px;
   font-family: "Roboto Slab";
-  background-color: #0d6efd;
+  background: linear-gradient(to right, #8e0e00, #1f1c18);
   border: none;
   border-radius: 5px;
   color: white;
@@ -129,15 +144,17 @@ a:focus:after {
   align-items: center;
   justify-content: center;
 }
-.btn__buy button:hover{
-  background-color: #0400ff;
+.btn__buy button:hover {
+  transition: 2.7s;
+  background: linear-gradient(to left, #ec240e, #4b534f);
 }
 
-#nike .product__name p{
+#nike .product__name p {
   display: flex;
   cursor: pointer;
   justify-content: center;
-  margin: 0;
+  margin-top: 13px;
+  margin-bottom: 16px;
   background: linear-gradient(to left, #000, #00ffe5);
   background-clip: text;
   font-size: 25px;
@@ -145,11 +162,12 @@ a:focus:after {
   margin-bottom: 20px;
   -webkit-text-fill-color: transparent;
 }
-#macbook .product__name p{
+#macbook .product__name p {
   display: flex;
   cursor: pointer;
   justify-content: center;
-  margin: 0;
+  margin-top: 13px;
+  margin-bottom: 16px;
   background: linear-gradient(to left, #000, #ff0000);
   background-clip: text;
   font-size: 25px;
@@ -157,11 +175,12 @@ a:focus:after {
   margin-bottom: 20px;
   -webkit-text-fill-color: transparent;
 }
-#iphone .product__name p{
+#iphone .product__name p {
   display: flex;
   cursor: pointer;
   justify-content: center;
-  margin: 0;
+  margin-top: 13px;
+  margin-bottom: 16px;
   background: linear-gradient(to right, #000, #95e1ff);
   background-clip: text;
   font-size: 25px;
@@ -169,11 +188,12 @@ a:focus:after {
   margin-bottom: 20px;
   -webkit-text-fill-color: transparent;
 }
-#galaxy .product__name p{
+#galaxy .product__name p {
   display: flex;
   cursor: pointer;
   justify-content: center;
-  margin: 0;
+  margin-top: 13px;
+  margin-bottom: 16px;
   background: linear-gradient(to left, #dc87e2, #000);
   background-clip: text;
   font-size: 25px;
@@ -181,11 +201,12 @@ a:focus:after {
   margin-bottom: 20px;
   -webkit-text-fill-color: transparent;
 }
-#sony .product__name p{
+#sony .product__name p {
   display: flex;
   cursor: pointer;
   justify-content: center;
-  margin: 0;
+  margin-top: 13px;
+  margin-bottom: 16px;
   background: linear-gradient(to left, #1fa2fa, rgb(121, 121, 121), #000);
   background-clip: text;
   font-size: 25px;
@@ -193,11 +214,12 @@ a:focus:after {
   margin-bottom: 20px;
   -webkit-text-fill-color: transparent;
 }
-#xbox .product__name p{
+#xbox .product__name p {
   display: flex;
   cursor: pointer;
   justify-content: center;
-  margin: 0;
+  margin-top: 13px;
+  margin-bottom: 16px;
   background: linear-gradient(to left, #0d0d0f, green, #323338);
   background-clip: text;
   font-size: 25px;
